@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search Bar</title>
+  </head>
+
+  <!-- CSS -->
+  <style>
+    .Search-Bar {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 20vh;
+      margin: 0;
+      background-color: #f5f5f5;
+    }
+    .search-bar-container {
+      display: flex;
+      align-items: center;
+      background-color: #fff;
+      padding: 8px 12px;
+      border-radius: 50px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    .search-bar-container input[type="text"] {
+      flex: 1;
+      padding: 0 8px;
+      border: none;
+      outline: none;
+      font-size: 16px;
+    }
+    .search-bar-container input[type="text"]::placeholder {
+      font-size: 16px;
+      color: #999;
+    }
+    .search-bar-container button {
+      padding: 6px 12px;
+      background-color: black;
+      color: #fff;
+      border: none;
+      border-radius: 50px;
+      cursor: pointer;
+      font-size: 16px;
+      margin-left: 8px;
+    }
+    .search-bar-container button:hover {
+      background-color: grey;
+    }
+  </style>
+
+  <!-- html -->
+  <body>
+    <div class="Search-Bar">
+      <div class="search-bar-container">
+        <input type="text" placeholder="Search here..." />
+        <button>Search</button>
+      </div>
+    </div>
+
+    <!-- JS -->
+    <script>
+
+    </script>
+
+  </body>
+</html>
