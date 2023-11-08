@@ -17,7 +17,6 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    
     color: white;
 }
 .contenthead{
@@ -28,8 +27,8 @@
     font-weight: 600;
 }
 .contenttypewritter {
-    width: 100%;
     font-size: 18px;
+    width: 100%;
     font-family: 'Noto Sans Mono', monospace;
     text-shadow: 0 0 3px #fff;
 }
@@ -54,4 +53,12 @@
     font-family: inherit;
     transition: all .15s ease;
     letter-spacing: .025em;
+}
+
+/* Responsive */
+@media screen AND (max-width:700px){
+    .mainbg {
+        background-image: url('assets/Video/bg.mp4');
+        height: 100vh !important;
+    }
 }
