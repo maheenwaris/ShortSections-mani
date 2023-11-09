@@ -47,6 +47,15 @@
     text-shadow: 0 0 5px #fff;
 }
 .contentbtn button{
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    transition: all .15s ease;
+    letter-spacing: .025em;
+    font-family: 'Noto Sans Mono', monospace;
+    text-shadow: 0 0 1px #fff;
+}
+/* .contentbtn button{
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 15px;
@@ -57,7 +66,7 @@
     letter-spacing: .025em;
     font-family: 'Noto Sans Mono', monospace;
     text-shadow: 0 0 1px #fff;
-}
+} */
 .contentbtn button:hover{
     color: black;
     background-color: #fff;
