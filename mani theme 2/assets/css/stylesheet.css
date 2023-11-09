@@ -37,14 +37,12 @@
     text-shadow: 0 0 3px #fff;
 }
 .animatedText{
-    position: fixed;
-    height: 7vh;
-    width: 100%;
-}
-.contenttypewritter {
+    height: 5vh;
+    padding-bottom: 10px;
     font-size: 18px;
     font-family: 'Noto Sans Mono', monospace;
     text-shadow: 0 0 5px #fff;
+    width: 100%;
 }
 .contentbtn button{
     width: 100%;
