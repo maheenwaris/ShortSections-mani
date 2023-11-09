@@ -10,6 +10,10 @@
 .bg {
     position: fixed;
 }
+.content{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
 .content div {
     position: relative;
     display: flex;
@@ -20,11 +24,14 @@
     color: white;
 }
 .contenthead{
-    margin-top: 7%;
+    padding: 3px;
 }
 .contentheading {
     font-family: inherit;
     margin: 0%;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
     font-size: 20px;
     font-family: 'Noto Sans Mono', monospace;
     text-shadow: 0 0 3px #fff;
