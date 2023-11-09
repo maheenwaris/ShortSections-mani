@@ -5,10 +5,9 @@
 }
 .mainbg {
     background-image: url('assets/Video/bg.mp4');
-    height: 100%;
+    height: auto;
 }
 .bg {
-    width: 100%;
     position: fixed;
 }
 .content div {
@@ -24,8 +23,7 @@
     margin-top: 7%;
 }
 .contentheading {
-    /* font-family: inherit; */
-    /* font-weight: 600; */
+    font-family: inherit;
     margin: 0%;
     font-size: 20px;
     font-family: 'Noto Sans Mono', monospace;
