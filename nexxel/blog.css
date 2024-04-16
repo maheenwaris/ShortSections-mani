@@ -1,0 +1,30 @@
+.main {
+    background-color: #171717;
+    color: #D4D4D4;
+    line-height: 2rem;
+    font-family: Switzer, Switzer Fallback;
+    width: 100%;
+}
+.blogmain{
+    margin-left: 5% !important;
+    /* background-color: aqua; */
+}
+.blog{
+    font-size: 17px; 
+}
+.blog p {
+    padding: 0%;
+    margin: 0%;
+}
+.blogheading a {
+    color: #D4D4D4;
+    text-decoration: none;
+    border-bottom: 2px solid #D4D4D4;
+}
+@media screen AND (max-width:700px) {
+    .blogmain{
+        margin-left: 0% !important;
+        margin: 0%;
+        overflow: hidden;
+    }
+}
